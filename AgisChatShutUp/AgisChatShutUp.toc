@@ -1,0 +1,15 @@
+## Interface: 30300
+## Title: |cFFCA153BAgi|r's Chat, Shut Up!
+## Version: 1.0.0
+## Author: Agita (Yvonne P.)
+## Notes: Hides annoying channel messages and spam
+## Notes-deDE: Unterbindet die Anzeige von nervigen Channel-Mitteilungen und Spam
+## OptionalDeps: AgiCore
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\AgiTimers\AgiTimers.lua
+#@end-no-lib-strip@
+
+_CONFIG.lua
+AgisChatShutUp.lua
